@@ -1,11 +1,11 @@
 # DNS Resolve
 Simple tool to resolve hostnames to IP addresses.
 
-# Build
+## Build
 `./build.sh`
 
-# Usage
+## Usage
 `./dnsresolve www.example.com`
 
-# Install
+## Install
 `sudo install -m 755 -o root -g root dnsresolve /usr/bin`
