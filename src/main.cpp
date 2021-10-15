@@ -6,6 +6,11 @@ int main(int argc, char **argv) {
         exit(EXIT_FAILURE);
     }
 
+    if (std::string(argv[1]) == "--help" || std::string(argv[1]) == "-h") {
+        printf("DNS Resolve\nUSAGE: %s <HOSTNAME> [HOSTNAME...]\nie: %s www.example.com\n", argv[0],argv[0]);
+        return 0;
+    }
+
     std::cout << "DNS Resolve Results" << std::endl;
 
     // for every hostname in argv
