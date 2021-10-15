@@ -6,6 +6,8 @@ int main(int argc, char **argv) {
         exit(EXIT_FAILURE);
     }
 
+    std::cout << "DNS Resolve Results" << std::endl;
+
     // for every hostname in argv
     for (int i = 1; i < argc; i++) {
         char *host = argv[i];
